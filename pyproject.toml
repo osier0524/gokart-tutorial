@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "gokart_example"
+version = "1.0.0"
+description = "gokart example"
+authors = ["bohan"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7.0"
+gokart = "*"
+
+[build-system]
+requires = ["poetry"]
+build-backend = "poetry.masonry.api"
